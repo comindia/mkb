@@ -246,7 +246,7 @@ ul.srt-menu li li li.sfHover ul {
     margin: 0 0 0 20px;
 }
 .post h4 {
-    color: chartreuse;
+    color: #fff;
     text-shadow: none;
 }
 
@@ -350,7 +350,7 @@ ul.srt-menu li li li.sfHover ul {
 #sidebar li { list-style: none; }
 
 .widget { padding-bottom: 58px; }
-.widget h4 { padding-bottom: 15px;    color: chartreuse;
+.widget h4 { padding-bottom: 15px;    color: #fff;
     text-shadow: none;}
 .widget .side-imgs li { float: left; display: inline; padding-right: 12px; }
 .widget .side-imgs li a { display: block; }
