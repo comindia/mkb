@@ -53,10 +53,11 @@ table {
       #sequence > .sequence-canvas > li img {
             width: 260px !important;
     height: 260px !important;;border-radius: 50%;padding: 10px;
-    border: solid 1px #ccc0c0;
+    border: solid 1px #ccc0c0; 
     background: #fff; }
     #sequence > .sequence-canvas li > * {
       position: absolute;
+      color: #400000;
       /* only cause the left and opacity properties to transition */
       -webkit-transition-property: left, opacity;
       -moz-transition-property: left, opacity;
@@ -194,7 +195,7 @@ table {
   transition-duration: 0.5s; }
 
 .subtitle {
-  color: black;    line-height: 1.3em;
+  color: #400000;    line-height: 1.3em;
   font-size: 2em;
   left: 35%;
   width: 35%;

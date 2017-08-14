@@ -56,7 +56,7 @@ body {
     line-height: 20px;
     font-family: arial, sans-serif;
     color: #ddd;
-    background: url('images/nature.pnga') no-repeat center 0 #39414A;
+    background: url('images/nature.pnga') no-repeat center 0 #7F0000;
     min-width: 980px;
 }
 
@@ -394,7 +394,7 @@ img._infra {
 #footer { font-size: 11px; }
 #footer a { text-decoration: underline; }
 #footer a:hover { text-decoration: none; }
-#footer .three-cols { background: #000 url('images/footer-top-lights.png') no-repeat center 0; padding-top: 35px; padding-bottom: 33px; border-bottom: 3px solid #000; }
+#footer .three-cols { background: #400000 url('images/footer-top-lights.png') no-repeat center 0; padding-top: 35px; padding-bottom: 33px; border-bottom: 3px solid #000; }
 #footer .three-cols .col { width: 288px; float: left; display: inline; padding-right: 49px; }
 #footer .three-cols .last { padding-right: 0; width: 286px; }
 #footer .three-cols h4 { color: #fff; text-shadow: none; border-bottom: 1px solid #232323; padding-bottom: 4px; margin-bottom: 14px; }
