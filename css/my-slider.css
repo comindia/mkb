@@ -437,7 +437,7 @@ p.ism-badge a.ism-link:hover {
     left: 54%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #fff; background-color: #7F0000;
 }
 
 #main-slider .ism-slide-0 .ism-caption-1 {
@@ -445,9 +445,10 @@ p.ism-badge a.ism-link:hover {
     font-family: "Oswald", sans-serif;
     position: absolute; top: 46%;
     left: 54%;
+    width: 500px;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #fff; background-color: #7F0000;
 }
 
 #main-slider .ism-slide-0 .ism-caption-2 {
@@ -457,7 +458,7 @@ p.ism-badge a.ism-link:hover {
     left: 60%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #fff; background-color: #7F0000;
 }
 
 #main-slider .ism-slide-1 .ism-caption-0 {
@@ -467,7 +468,7 @@ p.ism-badge a.ism-link:hover {
     left: 54%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #fff; background-color: #310000;
 }
 
 #main-slider .ism-slide-1 .ism-caption-1 {
@@ -475,9 +476,10 @@ p.ism-badge a.ism-link:hover {
     font-family: "Oswald", sans-serif;
     position: absolute; top: 46%;
     left: 54%;
+    width: 500px;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #fff; background-color: #310000;
 }
 
 #main-slider .ism-slide-1 .ism-caption-2 {
@@ -487,7 +489,7 @@ p.ism-badge a.ism-link:hover {
     left: 60%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #fff; background-color: #310000;
 }
 
 #main-slider .ism-slide-2 .ism-caption-0 {
@@ -497,7 +499,7 @@ p.ism-badge a.ism-link:hover {
     left: 54%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #fff; background-color: #7F0000;
 }
 
 #main-slider .ism-slide-2 .ism-caption-1 {
@@ -505,9 +507,10 @@ p.ism-badge a.ism-link:hover {
     font-family: "Oswald", sans-serif;
     position: absolute; top: 46%;
     left: 54%;
+    width: 500px;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #fff; background-color: #7F0000;
 }
 
 #main-slider .ism-slide-2 .ism-caption-2 {
@@ -517,6 +520,6 @@ p.ism-badge a.ism-link:hover {
     left: 60%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #fff; background-color: #7F0000;
 }
 

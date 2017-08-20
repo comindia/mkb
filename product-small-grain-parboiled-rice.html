@@ -5,7 +5,11 @@
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<link rel="shortcut icon" href="css/images/favicon.ico" />
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-     <link rel="stylesheet" media="screen" href="js/box/sequencejs-theme.modern-slide-in.css" />
+
+	<link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/my-slider.css"/>
+	<script src="js/ism-2.2.min.js"></script>
+     <!-- <link rel="stylesheet" media="screen" href="js/box/sequencejs-theme.modern-slide-in.css" />
     <script src="js/box/jquery.min.js"></script>
 		<script>
 		 if (typeof jQuery == 'undefined'){
@@ -13,7 +17,7 @@
 		 }
 		</script>
 		<script src="js/box/jquery.sequence-min.js"></script>
-		<script src="js/box/sequencejs-options.modern-slide-in.js"></script>
+		<script src="js/box/sequencejs-options.modern-slide-in.js"></script> -->
 </head>
 <body>
 	<!-- Begin Wrapper -->
@@ -29,11 +33,7 @@
 				<div id="navigation">
 					<ul class="srt-menu">
 						<li><a href="index.html" title="Home">Home</a></li>
-						<li><a href="about.html" title="About">About</a>
-                             <ul><li><a href="about.html#Overview">Overview</a></li>
-                                 <li><a href="about.html#factsheet">Factsheet</a></li>
-                                 </ul>
-                        </li>
+						
 						<li><a href="whyus.html" title="Why Us">Why Us</a>
                              <ul><li><a href="whyus.html#ourservices">Services</a></li>
                                  <li><a href="whyus.html#Quality">Quality Assurance</a></li>
@@ -55,6 +55,11 @@
                         </li>
 						<li><a href="infrastructure.html" title="Infrastructure">Infrastructure</a></li>
 						<li class="last"><a href="contacts.htm" title="Contacts">Contacts</a></li>
+						<li><a href="about.html" title="About">About</a>
+							<ul><li><a href="about.html#Overview">Overview</a></li>
+								<li><a href="about.html#factsheet">Factsheet</a></li>
+								</ul>
+					   </li>
 					</ul>
 				</div>
 				<!-- End Navigation -->
@@ -63,37 +68,26 @@
 		</div>
 		<!-- End Header -->
 		<!-- Begin Slider -->
-		  <div class="sequence-theme">
-			<div id="sequence">
-
-				<img class="sequence-prev" src="css/images/bt-prev.png" alt="Previous Frame" />
-				<img class="sequence-next" src="css/images/bt-next.png" alt="Next Frame" />
-
-				<ul class="sequence-canvas">
-					<li class="animate-in">
-						<h2 class="title">Parboiled Rice</h2>
-						<p class="subtitle">Our range of products include 100% broken parboiled rice, medium grain parboiled rice 10% broken, long grain parboiled rice ir 64 5% broken, medium grain parboiled rice and small grain parboiled rice...</p>
-						<img class="model" src="css/images/long-grain-parboiled-rice-500x500.jpg" /> 
-                     </li>
+		<div class="ism-slider" data-play_type="loop" data-interval="6000" id="main-slider">
+				<ol>
 					<li>
-						<h2 class="title">Indian Basmati Rice</h2>
-						<p class="subtitle">meet the different demands and requirements of our esteemed clients, we trade, supply and wholesale Steam Basmati Rice. Quality tested...</p>
-						<img class="model" src="css/images/indian-basmati-rice-500x500.jpg"  />
-                    </li>
-					<li>
-						<h2 class="title">Basmati Rice</h2>
-						<p class="subtitle">Our range of products include rice, golden sella rice, indian basmati rice, indian rice, non basmati rice and steam basmati rice...</p>
-						<img class="model" src="css/images/indian-rice-500x500.jpg" />
-                    </li>
-				</ul>
-
-				<ul class="sequence-pagination">
-					<li><img src="css/images/long-grain-parboiled-rice-500x500.jpg" alt="Model 1" /></li>
-					<li><img src="css/images/indian-basmati-rice-500x500.jpg" alt="Model 2" /></li>
-					<li><img src="css/images/indian-rice-500x500.jpg" alt="Model 3" /></li>
-				</ul>
-			</div>
-	</div>
+						<img src="css/images/slides/_u/1502979928339_985735.jpg">
+						<div class="ism-caption ism-caption-0" data-delay='100'>PARBOILED RICE</div>
+						<div class="ism-caption ism-caption-1" data-delay='200'>Our range of products include rice, golden sella rice, indian basmati rice, indian rice, non basmati rice and steam basmati rice..</div>
+				  </li>
+				  <li>
+					<img src="css/images/slides/_u/1502981748733_219348.jpg">
+					<div class="ism-caption ism-caption-0" data-delay='100'>BASMATI RICE</div>
+					<div class="ism-caption ism-caption-1" data-delay='200'>Our range of products include rice, golden sella rice, indian basmati rice, indian rice, non basmati rice and steam basmati rice...</div>
+				  </li>
+				  <li>
+					<img src="css/images/slides/_u/1502981350671_116207.jpg">
+					<div class="ism-caption ism-caption-0">INDIAN BASMATI RICE</div>
+					<div class="ism-caption ism-caption-1" data-delay='200'>Meet the different demands and requirements of our esteemed clients, we trade, supply and wholesale Steam Basmati Rice. Quality tested...</div>
+				  </li>
+				  
+				</ol>
+			  </div>
 		<!-- End Slider -->
 		<!-- Begin Main -->
 		<div id="main">
@@ -105,14 +99,14 @@
 							<div class="post singlepro"><div id="perboiled-rice" class="four-cols">
                                 <h4><a href="products.htm">PRODUCTS</a> &rsaquo; PARBOILED RICE</h4>
                                 <div class="cl">&nbsp;</div>
-									<div class="col"><img class="singleimg" src="css/images/pro/small-grain-parboiled-rice.jpeg"  />
+									<div class="col"><img class="singleimg" src="css/images/pro/small-grain-parboiled-rice.jpg"  />
 										<div class="entry"><h5>Small Grain Parboiled Rice</h5><p>We are instrumental in manufacturing, exporting and supplying our clients a superior quality <strong>Small Grain</strong> <strong>Parboiled Rice</strong> that takes less time to cook. Preferred for making idlis and dosas, the offered rice is easy to digest and better in nutrition than raw rice. Our provided rice is highly appreciated among our clients for its delectable taste and less sticky after cooking. Apart from this, we provide this rice in different packaging options and at affordable price.  </p>
 								<br />		<p><strong>Features:</strong> Highly nutritious, Hygienically packed, Non-adulterated</p>
 										<p><strong>Additional Information:</strong> Item Code: PR-1</p>
 										</div>
 									<div class="cl">&nbsp;</div>
                                     </div>
- <div class="cl">&nbsp;</div>						<div class="col"> <img class="singleimg" src="css/images/pro/long-grain-parboiled-rice-ir-64-250x250.jpg"  />
+ <div class="cl">&nbsp;</div>						<div class="col"> <img class="singleimg" src="css/images/pro/long-grain-parboiled-rice-250x250.jpg"  />
 				  <div class="entry"><h5>Long Grain Parboiled Rice IR 64</h5> 
                     <p>Owing to our years of experience and in-depth industry knowledge, we are able to supply, wholesale and trading<strong> Long Grain Parboiled Rice</strong>. All these offered rice are directly sourced from the certified farmers, who use modern technology in their cultivation process. In addition to this, we provide our rice in different size of packs at market leading prices.</p>
                             <p><strong>Features:</strong> Long grain, Quality-approved, Easy to digest</p>
@@ -127,13 +121,13 @@
                     </div>
                                          <div class="cl">&nbsp;</div>	
 									</div>
-  <div class="cl">&nbsp;</div>									<div class="col"> <img class="singleimg" src="css/images/pro/medium-grain-parboiled-rice-10-broken-250x250.jpg"  />
+  <div class="cl">&nbsp;</div>									<div class="col"> <img class="singleimg" src="css/images/pro/long-grain-parboiled-rice-500x500.jpg"  />
 				  <div class="entry"><h5>Medium Grain Parboiled Rice 10% Broken</h5> <p>Ours is an illustrious organization that is involved in supplying, wholesaling and trading <strong>Medium Grain Parboiled Rice</strong>. We procure these rice from trusted vendors of the market, who have years of experience and in-depth knowledge in this domain. Also, we store all the rice in our capacious warehouse, before delivery.</p>
 										  <p><strong>Features:</strong> Healthy, Tasty, High nutritional content</p>
                     </div> <div class="cl">&nbsp;</div>
 									</div>
                                     <div class="cl">&nbsp;</div>
-  <div class="col"> <img class="singleimg" src="css/images/pro/long-grain-parboiled-rice-ir-64-5-broken-250x250.jpg"  />
+  <div class="col"> <img class="singleimg" src="css/images/pro/long-grain-parboiled-rice-250x250.jpg"  />
 				  <div><h5>IR 64 Long Grain Parboiled Rice 5% Broken</h5> <p><strong>Product Details:</strong></p>
 										  <div>
 										    <table>
