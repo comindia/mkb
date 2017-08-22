@@ -288,6 +288,7 @@ p.ism-badge a.ism-link:hover {
     border-radius: 0;
     margin-top: 50px;
     width: auto;
+    height: 600px;
 }
 
 #main-slider-ism-badge {
@@ -395,39 +396,39 @@ p.ism-badge a.ism-link:hover {
 /* CAPTIONS */
 
 #main-slider .ism-slide-0 .ism-caption-0.ism-caption-anim {
-    -webkit-animation: fadein 0.5s; animation: fadein 0.5s;
+    -webkit-animation: fadein 0.5s; animation: fadein 0.5s; display: none;
 }
 
 #main-slider .ism-slide-0 .ism-caption-1.ism-caption-anim {
-    -webkit-animation: fadein 0.5s; animation: fadein 0.5s;
+    -webkit-animation: fadein 0.5s; animation: fadein 0.5s; display: none;
 }
 
 #main-slider .ism-slide-0 .ism-caption-2.ism-caption-anim {
-    -webkit-animation: fadein 0.5s; animation: fadein 0.5s;
+    -webkit-animation: fadein 0.5s; animation: fadein 0.5s; display: none;
 }
 
 #main-slider .ism-slide-1 .ism-caption-0.ism-caption-anim {
-    -webkit-animation: fadein 0.5s; animation: fadein 0.5s;
+    -webkit-animation: fadein 0.5s; animation: fadein 0.5s; display: none;
 }
 
 #main-slider .ism-slide-1 .ism-caption-1.ism-caption-anim {
-    -webkit-animation: fadein 0.5s; animation: fadein 0.5s;
+    -webkit-animation: fadein 0.5s; animation: fadein 0.5s; display: none;
 }
 
 #main-slider .ism-slide-1 .ism-caption-2.ism-caption-anim {
-    -webkit-animation: fadein 0.5s; animation: fadein 0.5s;
+    -webkit-animation: fadein 0.5s; animation: fadein 0.5s; display: none;
 }
 
 #main-slider .ism-slide-2 .ism-caption-0.ism-caption-anim {
-    -webkit-animation: fadein 0.5s; animation: fadein 0.5s;
+    -webkit-animation: fadein 0.5s; animation: fadein 0.5s; display: none;
 }
 
 #main-slider .ism-slide-2 .ism-caption-1.ism-caption-anim {
-    -webkit-animation: fadein 0.5s; animation: fadein 0.5s;
+    -webkit-animation: fadein 0.5s; animation: fadein 0.5s; display: none;
 }
 
 #main-slider .ism-slide-2 .ism-caption-2.ism-caption-anim {
-    -webkit-animation: fadein 0.5s; animation: fadein 0.5s;
+    -webkit-animation: fadein 0.5s; animation: fadein 0.5s; display: none;
 }
 
 #main-slider .ism-slide-0 .ism-caption-0 {
